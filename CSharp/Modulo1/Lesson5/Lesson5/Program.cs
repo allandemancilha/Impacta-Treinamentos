@@ -30,9 +30,9 @@ namespace Lesson5
             //! Numéricos de Ponto Flutuante
             double h = 32.45;
 
-            // Conversão Para Decimal Utilizando a Classe Convert
+            // Conversão Com Classes Auxiliares
             decimal i = Convert.ToDecimal(1000.99);
-            // Conversão Para Decimal Utilizando Convenção
+            // Conversão Implícita
             decimal j = 1000.99m;
 
             //! Data/Hora
