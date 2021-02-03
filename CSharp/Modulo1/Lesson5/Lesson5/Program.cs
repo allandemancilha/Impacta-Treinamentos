@@ -41,13 +41,13 @@ namespace Lesson5
             DateTime date = DateTime.Now;
             DateTime specificDate = new DateTime(2050, 12, 21);
 
-            // Utilizando String de Formatação Para Exibir a Data/Hora em Diversos Formatos
+            // Utilizando Cadeias de Caracteres de Formato Padrão Para Exibir a Data/Hora
             Console.WriteLine("{0:d}", specificDate); // Saída: 21/12/2050
             Console.WriteLine("{0:D}", specificDate); // Saída: quarta-feira, 21 de dezembro de 2050
             Console.WriteLine("{0:ddd}", specificDate); // Saída: qua
             Console.WriteLine("{0:dddd}", specificDate); // Saída: quarta-feira
 
-            // Utilizando String de Formatação Para Exibir o Valor de Acordo Com a Moeda Local
+            // Utilizando Cadeias de Caracteres de Formato Padrão Para Formatar o Valor de Acordo Com a Moeda Local
             Console.WriteLine("{0:c}", j); // Saída: R$ 1.000,99
 
             Console.ReadLine();
