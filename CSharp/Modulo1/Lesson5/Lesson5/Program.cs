@@ -41,7 +41,7 @@ namespace Lesson5
             DateTime date = DateTime.Now;
             DateTime specificDate = new DateTime(2050, 12, 21);
 
-            // Utilizando Cadeias de Caracteres de Formato Padrão Para Exibir a Data/Hora
+            // Utilizando Cadeias de Caracteres de Formato Padrão Para Formatar Data/Hora
             Console.WriteLine("{0:d}", specificDate); // Saída: 21/12/2050
             Console.WriteLine("{0:D}", specificDate); // Saída: quarta-feira, 21 de dezembro de 2050
             Console.WriteLine("{0:ddd}", specificDate); // Saída: qua
