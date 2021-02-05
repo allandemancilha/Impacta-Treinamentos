@@ -18,7 +18,7 @@ namespace Lesson6
                 Console.WriteLine("Obrigado!");
             }
 
-            Console.WriteLine("Aperte Alguma Tecla Para Continuar...");
+            Console.WriteLine("Aperte Enter Para Continuar");
             Console.ReadLine();
             Console.Clear();
 
@@ -40,7 +40,31 @@ namespace Lesson6
                 Console.WriteLine("Bom Dia!");
             }
 
-            Console.WriteLine("Aperte Alguma Tecla Para Encerrar...");
+            Console.WriteLine("Aperte Enter Para Continuar");
+            Console.ReadLine();
+            Console.Clear();
+
+            string message = string.Empty;
+
+            int aleatoryNumber = new Random().Next(1, 4);
+
+            switch (aleatoryNumber)
+            {
+                case 1:
+                case 3:
+                    message = "ímpar";
+                    break;
+                case 2:
+                case 4:
+                    message = "Par";
+                    break;
+                default:
+                    message = string.Empty;
+                    break;
+            }
+            Console.WriteLine(message);
+
+            Console.WriteLine("Aperte Enter Para Finalizar");
             Console.ReadLine();
         }
     }
